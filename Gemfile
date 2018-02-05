@@ -6,8 +6,10 @@ git_source(:github) do |repo_name|
 end
 
 
-
-
+#Jquery Bootstrap
+gem 'jquery-rails'
+#Bootstrap sweet baby
+gem 'bootstrap', '~> 4.0.0'
 #Lovely Pry for Rails
 gem 'pry-rails', :group => :development
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
