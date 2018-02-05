@@ -6,7 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 
-
+#Animate CSS
+gem "animate-rails"
 #Gem Font-Awesome
 gem "font-awesome-rails"
 #Jquery Bootstrap
