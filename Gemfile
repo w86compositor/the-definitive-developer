@@ -6,6 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 
+
+#adding browser detection for different devices
+gem 'browser'
 #Animate CSS
 gem "animate-rails"
 #Gem Font-Awesome
