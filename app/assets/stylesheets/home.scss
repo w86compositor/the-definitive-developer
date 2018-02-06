@@ -1,25 +1,6 @@
-body {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-ul {
-
-  line-height: 180%;
-  font-size: 3em;
-  font-weight: 400;
-}
-
-
-//Mobile CSS rules
-$cubic: cubic-bezier(0.4, 0.01, 0.165, 0.99);
-$menuItems: 7;
-
 //Menu Hamburger - this shit took me sooooo long -
 $cubic: cubic-bezier(0.4, 0.01, 0.165, 0.99);
 $menuItems: 7;
-
 
 .header {
   position: absolute;
@@ -55,7 +36,7 @@ $menuItems: 7;
         color: #FFF;
         font-weight: 100;
         text-decoration: none;
-        font-size: 22px;
+        font-size: 2.5em;
         line-height: 2.35;
         font-weight: 200;
         width: 100%;
