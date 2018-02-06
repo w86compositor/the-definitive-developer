@@ -7,6 +7,11 @@ end
 
 
 
+
+gem 'dotenv-rails', groups: [:development, :test]
+#Detect different browsers and devices
+#Delicious Hamburgers Menu
+gem 'hamburgers'
 #adding browser detection for different devices
 gem 'browser'
 #Animate CSS
