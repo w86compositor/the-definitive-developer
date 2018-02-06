@@ -1,2 +1,8 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import "home";
+@import "animate";
+@import "font-awesome";
+
+$hamburger-layer-color: #fff !default;
+@import "hamburgers";
