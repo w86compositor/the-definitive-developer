@@ -5,7 +5,7 @@ $(function () {
 
     (function () {
         var $header = $(".header");
-        $(".hamburger").on("click", function(e) {
+        $(".hamburger").on("click", function() {
 
             $(this).toggleClass("is-active");
             $header.toggleClass("menu-opened");
