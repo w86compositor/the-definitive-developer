@@ -9,7 +9,7 @@ $menuItems: 7;
   left: 0;
   height: 100px;
   width: 100%;
-  background-color: #17181a;
+  background-color: #4C6A92; //riverside blue => https://www.w3schools.com/colors/colors_trends.asp
   overflow: hidden;
   transition: all 0.5s ease-out, background 1s ease-out;
   transition-delay: 0.2s;
@@ -36,7 +36,7 @@ $menuItems: 7;
         color: #FFF;
         font-weight: 100;
         text-decoration: none;
-        font-size: 1.1em;
+        font-size: 3.1em;
         line-height: 2.35;
         font-weight: 200;
         width: 100%;
@@ -45,7 +45,7 @@ $menuItems: 7;
   }
   &.menu-opened {
     height: 100%;
-    background-color: #000;
+    background-color: #4C6A92; //riverside blue => https://www.w3schools.com/colors/colors_trends.asp
     transition: all 0.3s ease-in, background 0.5s ease-in;
     transition-delay: 0.25s;
 
