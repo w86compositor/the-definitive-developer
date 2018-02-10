@@ -7,9 +7,9 @@ $menuItems: 7;
   display: block;
   top: 0;
   left: 0;
-  height: 100px;
+  height: 48px;
   width: 100%;
-  background-color: #4C6A92; //riverside blue => https://www.w3schools.com/colors/colors_trends.asp
+  background-color: #202020;
   overflow: hidden;
   transition: all 0.5s ease-out, background 1s ease-out;
   transition-delay: 0.2s;
@@ -33,10 +33,10 @@ $menuItems: 7;
       a {
         display: block;
         position: relative;
-        color: #FFF;
+        color: #F0EDE5; //coconut milk color
         font-weight: 100;
         text-decoration: none;
-        font-size: 3.1em;
+        //font-size: 3.1em;
         line-height: 2.35;
         font-weight: 200;
         width: 100%;
@@ -45,7 +45,7 @@ $menuItems: 7;
   }
   &.menu-opened {
     height: 100%;
-    background-color: #4C6A92; //riverside blue => https://www.w3schools.com/colors/colors_trends.asp
+    background-color: #202020;
     transition: all 0.3s ease-in, background 0.5s ease-in;
     transition-delay: 0.25s;
 
