@@ -17,7 +17,7 @@ $menuItems: 7;
   ul.menu {
     position: relative;
     display: block;
-    padding: 100px 48px 0;
+    padding: 50px 48px 0;
     list-style: none;
     li.menu-item {
       //border-bottom: 1px solid #333;
@@ -33,8 +33,8 @@ $menuItems: 7;
       a {
         display: block;
         position: relative;
-        color: #F0EDE5; //coconut milk color
-        font-weight: 100;
+        color: #fff; //coconut milk color
+        //font-weight: 100;
         text-decoration: none;
         //font-size: 3.1em;
         line-height: 2.35;
