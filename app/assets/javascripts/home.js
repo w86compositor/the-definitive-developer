@@ -9,9 +9,9 @@ $(function () {
 
             $(this).toggleClass("is-active");
             $header.toggleClass("menu-opened");
-            $(".n-stick").toggle("slow", function () {
-
-            });
+            // $(".n-stick").toggle("slow", function () {
+            //
+            // });
 
             $("html").toggleClass("no-overflow");
             //Prevent finger scrolling
