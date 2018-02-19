@@ -1,42 +1,49 @@
-body {
+body, a, u {
+  font-family: 'Open Sans', sans-serif;
+  color: #111111;
 
-  color: #F0EDE5; //coconut milk color
+}
+
+.youtube-section {
+    background-color: #B93A32;
+  }
+
+.gadgets-section {
+  background-color: #F0EDE5;
+}
+
+.courses-section {
+  background-color: #999999;
+}
+
+.about-me-section {
+  background-color: #CCCCCC;
 }
 
 
 .waldo-the-dev-image {
-  margin-top: 12em;
+  margin-top: 6em;
 }
 
 
-h1  {
-  margin-top: 1em;
+.title-text  {
+  margin-top: 0.9em;
+  font-size: 3.5rem;
+  color: #111111;
+  font-weight: bold;
 }
 
 
-h2 {
+.subtitle-text {
   margin: 0.5em 0.3em 2em 0.3em;
+  font-size: 1.6rem;
+  color: #444444;
 }
 
-
-.red-colored-jumbotron {
-
-  background-color: #DD4132; // fiesta red
+.the {
+  font-size: 0.8em;
 }
 
-.blue-colored-jumbotron {
-  background-color: #034F84; // snorkel blue
-}
-
-.yellow-colored-jumbotron {
-  background-color: #FAE03C; // buttercup yellow
-  color: #3e4444;
-}
-
-
-.lilagrey-colored-jumbotron {
-  background-color: #9896A4; // lila-grey
-}
 
 .ftr-img {
   padding: 1.2em;

@@ -1,137 +1,147 @@
 <%= render 'main_navbar' %>
 
     <!--intro-section-->
-<div class="container-fluid red-colored-jumbotron">
-  <div class="row">
-    <div class="col-sm-12">
-      <figure class="waldo-the-dev-image">
-        <%= image_tag 'waldo-the-dev.jpg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
-      </figure>
-        <h1 class="text-center">Waldo the Developer</h1>
-        <h2 class="text-center">Empowering programmers and technology enthusiasts</h2>
-    </div>
-  </div>
-</div>
-
-    <!--youtube-section-->
-<div class="container-fluid red-colored-jumbotron mt-2">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 class="text-center">Visit my Youtube Channel</h1>
-    </div>
-    <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5">
-      <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gXfOdwduXqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-    </div>
-    <div class="col-sm-12">
-      <h3 class="text-center mb-5">Find new videos about just anything in software development</h3>
-    </div>
-  </div>
-</div>
-
-    <!--gadgets-section-->
-<div class="container-fluid blue-colored-jumbotron mt-2">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 class="text-center mt-5">Cool as a gadget</h1>
-
-      <figure class="product-images">
-        <%= image_tag 'aw_black.png', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
-      </figure>
-
+  <div class="container-fluid">
+    <div class="row">
       <div class="col-sm-12">
-        <h3 class="text-center mt-5 mb-5">Discover new cool gadgets that developers love to use everyday</h3>
+        <figure class="waldo-the-dev-image">
+          <%= image_tag 'waldo-the-dev.jpg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
+        </figure>
+        <h1 class="text-center title-text">WALDO&nbsp;<span class="the">the</span> DEVELOPER</h1>
+        <h4 class="text-center subtitle-text">Empowering programmers <br> and technology enthusiasts</h4>
       </div>
     </div>
   </div>
-</div>
 
-    <!--books-section-->
-<div class="container-fluid blue-colored-jumbotron mt-2">
-  <div class="row">
-    <div class="col-sm-12 mt-5 mb-5">
-      <div class="card bg-dark text-white">
-          <%= image_tag 'programming-books.jpg', class: 'card-img animated fadeIn' %>
-        <div class="card-img-overlay">
-          <h1 class="card-title">Don't judge a book by it's cover</h1>
-          <h3 class="card-text">Unleash your inner powerful reader</h3>
+
+
+<!--youtube-section-->
+  <div class="container-fluid youtube-section">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">My Youtube</h1>
+      </div>
+      <div class="embed-responsive embed-responsive-4by3 mt-2 mb-2">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gXfOdwduXqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm-12">
+        <h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h4>
+      </div>
+    </div>
+  </div>
+
+
+<!--gadgets-section-->
+  <div class="container-fluid gadgets-section mt-2">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center mt-5">Cool as a gadget</h1>
+
+        <figure class="product-images">
+          <%= image_tag 'aw_black.png', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
+        </figure>
+
+        <div class="col-sm-12">
+          <h3 class="text-center mt-5 mb-5">Discover new cool gadgets that developers love to use everyday</h3>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-  <!--courses-section-->
-<div class="container-fluid yellow-colored-jumbotron mt-2">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 class="text-center">If you don't see it, you'll miss it</h1>
-      <figure>
-        <%= image_tag 'udemy.svg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
-        <h3 class="text-center mb-5">I know, it's Udacity, Lynda, Youtube, CodeAcademy, but...Udemy has it all!</h3>
-      </figure>
+
+<!--books-section-->
+  <div class="container-fluid mt-2">
+    <div class="row">
+      <div class="col-sm-12 mt-5 mb-5">
+        <div class="card bg-dark text-white">
+          <%= image_tag 'programming-books.jpg', class: 'card-img animated fadeIn' %>
+          <div class="card-img-overlay">
+            <h1 class="card-title">Don't judge a book by it's cover</h1>
+            <h3 class="card-text">Unleash your inner powerful reader</h3>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
-  <!--food-section-->
-<div class="container-fluid yellow-colored-jumbotron mt-2">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 class="text-center">No time to explain, hope on!</h1>
-      <figure>
-        <%= image_tag 'breakfast.jpg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
-      </figure>
-    </div>
-    <div class="col-sm-12">
-      <h3 class="text-center mb-5">Eat healthy and code better!</h3>
+
+<!--courses-section-->
+  <div class="container-fluid courses-section mt-2">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">If you don't see it, you'll miss it</h1>
+        <figure>
+          <%= image_tag 'udemy.svg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
+          <h3 class="text-center mb-5">I know, it's Udacity, Lynda, Youtube, CodeAcademy, but...Udemy has it all!</h3>
+        </figure>
+      </div>
     </div>
   </div>
-</div>
+
+
+<!--food-section-->
+  <div class="container-fluid mt-2">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">No time to explain, hope on!</h1>
+        <figure>
+          <%= image_tag 'breakfast.jpg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
+        </figure>
+      </div>
+      <div class="col-sm-12">
+        <h3 class="text-center mb-5">Eat healthy and code better!</h3>
+      </div>
+    </div>
+  </div>
+
 
 <!--about-me-section-->
-<div class="container-fluid lilagrey-colored-jumbotron mt-2">
-  <%= link_to('about-me') do %>
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 class="text-center">About me</h1>
-      <figure>
-        <%= image_tag 'waldo.jpg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
-      </figure>
-      <h3 class="text-center mb-5">How did I become a developer? Why and what is my story? Paparazzi not allowed</h3>
-    </div>
-  </div>
+  <div class="container-fluid about-me-section mt-2">
+    <%= link_to('about-me') do %>
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="text-center">About me</h1>
+          <figure>
+            <%= image_tag 'waldo.jpg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
+          </figure>
+          <h3 class="text-center mb-5">How did I become a developer? Why and what is my story? Paparazzi not allowed</h3>
+        </div>
+      </div>
     <% end %>
-</div>
+  </div>
 
-  <!--contact-section-->
-<div class="container-fluid lilagrey-colored-jumbotron mt-2">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 class="text-center">How about a message on a bottle?</h1>
-      <figure>
-        <%= image_tag 'contact.jpg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
-      </figure>
-    </div>
-    <div class="col-sm-12">
-      <h3 class="text-center mb-5">Write me, I wanna learn about you, why you want to be a software developer, and more</h3>
+
+<!--contact-section-->
+  <div class="container-fluid mt-2">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">How about a message on a bottle?</h1>
+        <figure>
+          <%= image_tag 'contact.jpg', class: 'rounded mx-auto d-block animated fadeIn img-fluid', style: 'height: 200px' %>
+        </figure>
+      </div>
+      <div class="col-sm-12">
+        <h3 class="text-center mb-5">Write me, I wanna learn about you, why you want to be a software developer, and more</h3>
+      </div>
     </div>
   </div>
-</div>
+
 
 <!--footer-section-->
-<footer class="d-flex align-items-center justify-content-center container-fluid">
-  <div class="row" style="padding: 2em 0 2em 0 !important;">
-    <div class="col ftr-img">
-      <%= image_tag 'facebook.svg', class: 'animated fadeIn img-fluid', style: 'height: 30px; width: 40px' %>
+  <footer class="d-flex align-items-center justify-content-center container-fluid">
+    <div class="row" style="padding: 2em 0 2em 0 !important;">
+      <div class="col ftr-img">
+        <%= image_tag 'facebook.svg', class: 'animated fadeIn img-fluid', style: 'height: 30px; width: 40px' %>
+      </div>
+      <div class="col ftr-img">
+        <%= image_tag 'google-plus.svg', class: 'animated fadeIn img-fluid', style: 'height: 30px; wdth: 40px' %>
+      </div>
+      <div class="col ftr-img">
+        <%= image_tag 'twitter.svg', class: 'animated fadeIn img-fluid', style: 'height: 30px; wdth: 40px' %>
+      </div>
+      <div class="col ftr-img">
+        <%= image_tag 'linkedin.svg', class: 'animated fadeIn img-fluid', style: 'height: 30px; width: 40px' %>
+      </div>
     </div>
-    <div class="col ftr-img">
-      <%= image_tag 'google-plus.svg', class: 'animated fadeIn img-fluid', style: 'height: 30px; wdth: 40px' %>
-    </div>
-    <div class="col ftr-img">
-      <%= image_tag 'twitter.svg', class: 'animated fadeIn img-fluid', style: 'height: 30px; wdth: 40px' %>
-    </div>
-    <div class="col ftr-img">
-      <%= image_tag 'linkedin.svg', class: 'animated fadeIn img-fluid', style: 'height: 30px; width: 40px' %>
-    </div>
-  </div>
-</footer>
+  </footer>
+
