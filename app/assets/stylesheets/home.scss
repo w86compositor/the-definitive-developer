@@ -4,6 +4,30 @@ body, a, u {
 
 }
 
+// All links and anchors
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color:            #111111;
+}
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            #111111;
+}
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  color:            #ffffff;
+}
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  color: #ffffff;
+}
+
+// End of all links and anchors
+
 .youtube-section {
     background-color: #B93A32;
   }
